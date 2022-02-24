@@ -7,7 +7,7 @@ function checkGuest() {
     }
     var answer = prompt("Do you like food?");
     while(answer.toLocaleLowerCase() != "yes"){
-        answer = prompt("Sorry can't let you in unless you like food!")
+        answer = prompt("Sorry can't let you in unless you like food! Say yes to enter my page!")
     }
     return guest;
 }
