@@ -13,7 +13,7 @@ header{
     margin-left: auto;
     margin-right: auto;
 }
-#Segal{
+.Segal{
     float: left;
     margin-right: 20px;
 }
@@ -23,6 +23,7 @@ main p{
 }
 
 div p{
+    margin-top: 5%;
     font-size: 40px;
 }
 
